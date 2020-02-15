@@ -1,0 +1,45 @@
+
+.container{ width: 800px; margin:0px auto;}
+
+
+@media(max-width: 1600px) {.container {width: 1200px}}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {.container {width: 800px}}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;}}
+
+@media (max-width: 480px) {.container {width: 280px}}
+
+@media (max-width: 400px) {.container {width: 230px}}
+
+@media (max-width: 350px) {.container {width: 190px}}
+
+
+
+
+
